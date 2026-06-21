@@ -1,0 +1,230 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    height: 60px;
+    width: auto;
+    background-color: #131921 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.SearchBar {
+   height: 40px;
+   font-size: 16px;
+   display: flex;
+   max-width: 600px;
+   flex-grow: 1; 
+   margin: 0 20px; 
+   border-radius: 4px;
+   overflow: hidden;
+}
+
+.SearchBar select {
+    border: none;
+    outline: none;
+    padding: 0 5px;
+}
+
+.SearchIcon {
+    
+    background-color:yellow;
+    color: black;
+    height: 100%;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SearchBar input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.Location {
+    font-size: 14px;
+}
+
+.Signin p, .Returns p {
+    font-size: 14px;
+}
+
+
+.panel {
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0 20px;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.panel-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.panel-links p {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.panel-image img {
+    height: 100%;
+    width: 250px;
+    object-fit: fill;
+    display: block;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.container
+{
+    height: 100vh;
+    width: auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+}
+.cards{
+    margin-left: 50px;
+    display: flex;
+    gap: 40px;
+}
+.card {
+    width: 320px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    margin-top: 15px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+        transform: translateY(-8px);
+}
+
+.card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+}
+
+.card-content {
+       padding: 20px;
+}
+
+.card-title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #333;
+}
+
+.card-text {
+        color: #666;
+        line-height: 1.5;
+        margin-bottom: 15px;
+}
+
+.image-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+}
+
+.image-grid img{
+    width:100%;
+    height:120px;
+    object-fit:cover;
+    border-radius:5px;
+}
+
+
+
+
+.footer{
+    background:#232f3e;
+    color:white;
+    margin-top:50px;
+}
+
+.back-to-top{
+    background:#37475a;
+    text-align:center;
+    padding:15px;
+}
+
+.back-to-top a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.footer-links{
+    display:flex;
+    justify-content:space-around;
+    padding:50px 80px;
+    flex-wrap:wrap;
+}
+
+.column{
+    display:flex;
+    flex-direction:column;
+}
+
+.column h3{
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.column a{
+    color:#ddd;
+    text-decoration:none;
+    margin:6px 0;
+    font-size:14px;
+}
+
+.column a:hover{
+    text-decoration:underline;
+}
+
+.footer-bottom{
+    border-top:1px solid #3a4553;
+    text-align:center;
+    padding:20px;
+    background:#131a22;
+}
+
+.footer-bottom h2{
+    margin-bottom:10px;
+    color:white;
+}
+
+
+
+
